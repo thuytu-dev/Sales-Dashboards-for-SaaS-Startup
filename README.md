@@ -1,55 +1,44 @@
-# 📊 Sales Pipeline & Rep Performance Toward Quota — Pendula
+# 📊 Sales Workspace & Dashboards 
 
-> **Portfolio case study · Sales Analytics & FP&A**
+> **Sales Operations · Sales Analytics · Sales Pipeline · Customer Segmentation · Sales Performance**
 
 | | |
 |---|---|
-| **Client** | Pendula (Zipline Cloud Pty Ltd) |
-| **Industry** | SaaS · B2B2C Two-Way Communication Platform |
+| **Industry** | SaaS · B2B2C |
 | **Role** | Principal BI & Data Analyst |
-| **Period** | June 2022 – October 2025 |
-| **Tools** | Domo · SQL · Salesforce · Excel |
-
----
-
-## Impact at a glance
-
-| Metric | Result |
-|---|---|
-| ⏱ Month-end time saved | **2–3 working days per month** |
-| 📈 Upsell revenue growth | **+15%** driven by pipeline visibility |
-| ✅ Self-service reporting | **100%** — zero manual data pulls |
-| 💬 Commission disputes | **0** in two quarters post go-live |
+| **Tools** | Domo · SQL · Salesforce |
 
 ---
 
 ## 1. Executive Summary
 
-Pendula is a B2B2C two-way communication platform that enables enterprise clients to send, receive, and act on messages across SMS and email at scale. What sets Pendula apart is its real-time data engine — personalising and contextualising every message using live signals such as weather conditions, geolocation, and customer behaviour. AI-powered sentinel analytics sits at the core of the platform, allowing clients to trigger the right message to the right person at exactly the right moment.
+Data from the source of truth was not complete, neither verified. We validated data of Salesforce, filled in missing pieces and put in place processes to ensure data quality and complete workflow. I pulled data to Domo BI to further process and created Sales workplace with automated dashboards and reports. As the result, the Company, espeically Leadership and Go-to-market team could rely on one source of truth with real-time data. That also gives every sales rep direct visibility into their own numbers, their team's progress and the company's overall target achivement. 
 
-As Pendula scaled globally, its commercial reporting didn't keep pace. Leadership — including the CEO, CRO, and CFO — had no reliable, real-time view of pipeline health or how individual sales representatives were tracking against quota. Reporting was fragmented: manual Salesforce exports stitched together with individual Excel trackers, compiled weekly, and already stale by the time it reached the inbox.
+**Impact at a glance**
 
-This project delivered a **Salesforce-integrated Domo BI solution** that gave the full leadership team a single source of truth across pipeline stages, deal velocity, quota attainment, and commission exposure — while also giving every sales rep direct visibility into their own numbers, their team's progress, and the company's overall target.
+✅ Provided one source of truth on the sales numbers, making the whole company aligned on the sales performance, saving times to resolve conflicting reported numbers.
+
+✅ Interactive dashboards provided stakeholders the ability to self-serve when doing more in-depth analysis. 
 
 ---
 
 ## 2. Business Problem
 
-As Pendula transitioned from a founder-led sales motion to a globally scaling team with defined territories and quotas, its reporting infrastructure remained stuck in start-up mode. Sales and Finance operated in separate data silos, each maintaining their own version of the truth with no mechanism to reconcile them.
+There was no centralised information within the Company. Salesforce was used to track sales funnels but information was incomplete and not up to date. As the result, each team needed to manage their own records of sales that need to be aligned every month to prepare for Board meeting. Sales rep kept the record of their pipelines in their own spreadsheets and would pass that along in meetings or when requested for Leader's information.  
 
 | Problem | Business impact |
 |---|---|
+| 🔴 No trust worthy source of sales data | Each team maintained their own version of data that needed to be aligned every month |
 | 🔴 No real-time pipeline visibility | Leadership made decisions on week-old Salesforce snapshots — by the time data landed, deals had already moved or been lost |
-| 🔴 Quota tracking was fragmented and manual | Sales managers kept individual Excel trackers with no consolidated team view, making it impossible to spot and rescue an at-risk rep before month-end |
+| 🔴 Salesforce was not used properly | The investment on the platform was not justified |
 | 🔴 Finance had no forecast it could rely on | Revenue forecasts were built on intuition rather than weighted pipeline data — committed deals and upside were not differentiated, making board reporting unreliable |
 | 🔴 Reps flew blind on their own targets | Sales representatives had no self-serve view of where they stood against quota, their team's trajectory, or the company's overall performance — reducing accountability and motivation |
-| 🔴 Commission disputes created rework | Without a single source of truth for closed-won deals and OKR attainment, commission calculations were regularly contested, pulling Finance and Sales Ops into time-consuming back-and-forth |
 
 ---
 
 ## 3. Methodology
 
-The project was delivered in **four structured phases over eight weeks**, working in close partnership with the CEO, CRO, CFO, Sales Director, and two sales reps who served as data champions and validators.
+1. 
 
 ### Phase 1 — Discovery & Requirements
 - Ran structured workshops with Sales, Finance, and Leadership to surface reporting needs, pain points, and decision-making gaps
