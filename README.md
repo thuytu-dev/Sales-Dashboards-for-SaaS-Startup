@@ -12,51 +12,57 @@
 
 ## 1. Executive Summary
 
-Data from the source of truth was not complete, neither verified. We validated data of Salesforce, filled in missing pieces and put in place processes to ensure data quality and complete workflow. I pulled data to Domo BI to further process and created Sales workplace with automated dashboards and reports. As the result, the Company, espeically Leadership and Go-to-market team could rely on one source of truth with real-time data. That also gives every sales rep direct visibility into their own numbers, their team's progress and the company's overall target achivement. 
+The Company did not have trustworthy source of sales data. The process to verify and confirm sales performance consumed much time from all teams on monthly basic for Board meeting. Once this project was done, Salesforce was put in proper use to track Sales performance at Lead, Opportunity, Account levels, together with Activities of each individuals. Data was filled, validated. Workflow and sales process were set up. Data was then injected to Domo BI to create a space for Sales team to monitor their activities and track the performance of not only themself, but their team and the company as the whole. Finance and Leadership teams could do analysis and forecasting from the BI platform. The space was also set up on Mobile version for on-the-go access. 
 
 **Impact at a glance**
 
 ✅ Provided one source of truth on the sales numbers, making the whole company aligned on the sales performance, saving times to resolve conflicting reported numbers.
 
-✅ Interactive dashboards provided stakeholders the ability to self-serve when doing more in-depth analysis. 
+✅ Automated dashboards provided stakeholders with real time visibility on Sales performance. The interactive feature of the dashboard enable the ability to self-serve for more in-depth analysis without waiting for analytics team. 
 
 ---
 
 ## 2. Business Problem
 
-There was no centralised information within the Company. Salesforce was used to track sales funnels but information was incomplete and not up to date. As the result, each team needed to manage their own records of sales that need to be aligned every month to prepare for Board meeting. Sales rep kept the record of their pipelines in their own spreadsheets and would pass that along in meetings or when requested for Leader's information.  
+Salesforce was used to track sales funnels but information was incomplete and not up to date. Each sales reps tracked their sales progress on their local files and shared it with others when being requested. Sales data was validated and updated manually for monthly reports. Strategic and sales decisions were made by gut feelings without supported data. 
 
 | Problem | Business impact |
 |---|---|
-| 🔴 No trust worthy source of sales data | Each team maintained their own version of data that needed to be aligned every month |
-| 🔴 No real-time pipeline visibility | Leadership made decisions on week-old Salesforce snapshots — by the time data landed, deals had already moved or been lost |
-| 🔴 Salesforce was not used properly | The investment on the platform was not justified |
-| 🔴 Finance had no forecast it could rely on | Revenue forecasts were built on intuition rather than weighted pipeline data — committed deals and upside were not differentiated, making board reporting unreliable |
+| 🔴 No trust worthy source of sales data | Time and effort spent on information validating and alignment on regular basic.  |
+| 🔴 Salesforce was not used properly | The investment on the platform was not justified. |
+| 🔴 No real-time pipeline visibility | Leadership made decisions on week/month-old Salesforce snapshots — by the time data landed, deals had already moved or been lost |
+| 🔴 Finance kept track and updated sales performance manually with no base to forecast | Reported financial and sales data was not reliable.  |
 | 🔴 Reps flew blind on their own targets | Sales representatives had no self-serve view of where they stood against quota, their team's trajectory, or the company's overall performance — reducing accountability and motivation |
+| 🔴 Sales leaders did not have clear visibility on what their team did | Sales leaders had difficulty on managing their team because no records on call, demo or meeting was properly tracked. |
+| 🔴 Strategic and sales decisions were not supported by data | Decisions was not optimal when being made by intuition and assumption. |
 
 ---
 
 ## 3. Methodology
 
-1. **Understand the business** Workshop with Sales team to understand the sales process, current practice and the expectation on visibility and requirements for the team to take ownership and better actions.
-2. **Set up Salesforce** Validate data on Salesforce. Fill in missing data by using integration workflow with 3rd party data. Create workflow to create checkout to ensure data quality going forward.
+1. **Understand the business** Workshop with Sales team to understand the as-is sales process practice and requirements for better visibility to take ownership and better actions.
+
+2. **Set up Salesforce** Validated data on Salesforce. Filled in missing data by using integration workflow with 3rd party data. Created workflow to create checkout to ensure data quality going forward.
+   
 3. **Inject data from Salesforce to Domo**
-- Used prebuilt Salesforce Connector to extract data from Oppotunity, Account, User, Lead and Activity objects.
-- Used ETL tiles and SQL queries to create dimension and fact tables to support the creation of charts and dashboards.
+- Used prebuilt Salesforce Connector on Domo to extract data from Oppotunity, Account, User, Lead and Activity objects.
+- Used Magic ETL tile and SQL queries to create dimension and fact tables to support the creation of charts and dashboards.
+
 4. **Designed and built dashboards on desktop and mobile**
 - Used Beast Mode to create calculated fields.
-- Built and automated dashboards to provide sales funnels and activities visibility.
+- Built and automated dashboards to provide visibility on sales funnels and activities.
 - Enable drill in for self-served
-- Enable and rearrange chart for mobile version.
+- Enable mobile version
+
 5. **Validation and put in use**
   
 ---
 
 ## 4. Skills Demonstrated
 
-**Domo** `data warehouse`, `ETL`, `SQL`, `Beast mode`, `Charts and Dashboard`, `App`
+**Domo** `data warehouse`, `Magic ETL`, `SQL`, `Beast mode`, `Charts and Dashboard`, `App`, `Mobile version`
 
-**Salesforce CRM** `Objects` `Workflow` `Opportunity` `Account` `Lead`
+**Salesforce CRM** `Objects` `Workflow` `Opportunity` `Account` `Lead` `Activitiy`
 
 **Sales Operations** `Sales funnel analysis` `Deal velocity & cycle time` `Territory management`
 
@@ -66,11 +72,15 @@ There was no centralised information within the Company. Salesforce was used to 
 
 ## 5. Results & Business Recommendations
 
-Creating the Sales App that acted like a space for Sales team and Leadership team to have a visibility of what was going on the business help the team to proper manage their workflow, know what to focus and easily brainstorm on their selling strategy. Salesforce became the source of truth for the business with Domo being the space to digest the information, as the result the confidence in data was boosted, making the leadership team more confident in their meetings with investors. The ability to drill down in charts and ask question help sales team saved time waiting for analytics team to work on their request. The activities and performance of each sales reps are visible for them and their managers to see to judge their performance. 
+Sales BI for Sales and Leadership teams was created in Desktop and Mobile versions to provide the business with real-time visibility of sales results and process. That in turn helped the team to properly manage their workload, know what to focus and easily brainstorm on their selling strategy. Salesforce became the source of truth for the business with Domo being the platform to centralise information. Business got more confidence in data quality and in their strategic decision. The ability to drill down for detailed analysis and ask question saved time for users instead of waiting for the analytics team. The activities and performance of each sales reps are visible for them and their managers for performance assessment.
 
-The space was fully and immediately adopted by Sales and Leadership team to use in their weekly sales meeting. Finance team link their forecast to the dashboard thanks to its trustworthness of data. 
+The space was used by Sales and Leadership team in their weekly sales meeting. Finance team replaced their manual sales database with Salesforce/Domo database for better historical data and better quality forecast.  
 
-<img width="524" height="257" alt="Screenshot 2026-06-22 at 5 19 58 PM" src="https://github.com/user-attachments/assets/be1392da-95e4-4c69-8fa3-8dbc9fc393fe" />
+| | |
+|--|--|
+|<img width="524" height="257" alt="Screenshot 2026-06-22 at 5 19 58 PM" src="https://github.com/user-attachments/assets/be1392da-95e4-4c69-8fa3-8dbc9fc393fe" />|<img width="886" height="729" alt="Screenshot 2026-06-25 at 2 57 14 PM" src="https://github.com/user-attachments/assets/f232c797-13fe-4f1a-ac55-435df418da7f" />
+|
+
 
 Visual 2 - Current ARR, target, % achieved, Sales funnels, Sales detaisl
 Visual 3 - Sales activities - call, demo, meetings
