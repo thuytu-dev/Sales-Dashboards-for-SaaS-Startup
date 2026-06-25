@@ -80,19 +80,14 @@ The space was used by Sales and Leadership team in their weekly sales meeting. F
 |--|--|
 |<img width="524" height="257" alt="Screenshot 2026-06-22 at 5 19 58 PM" src="https://github.com/user-attachments/assets/be1392da-95e4-4c69-8fa3-8dbc9fc393fe" />|<img width="886" height="729" alt="Screenshot 2026-06-25 at 2 57 14 PM" src="https://github.com/user-attachments/assets/f232c797-13fe-4f1a-ac55-435df418da7f" />
 |
-
-
-Visual 2 - Current ARR, target, % achieved, Sales funnels, Sales detaisl
-Visual 3 - Sales activities - call, demo, meetings
-Visual 4 - performance per sales reps, segmentation
+<img width="629" height="636" alt="Screenshot 2026-06-25 at 4 19 38 PM" src="https://github.com/user-attachments/assets/7471e97a-b41a-4e04-b750-a70178d59d2a" />
 
 ---
 
 ## 6. Next Steps
 
-- Frequent updates of new charts and dashboards to utilise deliveries to new requests from Sales team.
-- The space would be moved to Domo App given the new launch of the app version.
-
+- On quarterly basic, I reviewed all newly created charts/analysis to update the dashboards to keep them useful and up-to-demand.
+  
 ---
 
-*This case study is part of Thuy Tu's freelance portfolio. Client data has been anonymised.*
+*This case study is part of Thuy Tu's portfolio. Charts shown are for demo purpose. Client data has been changed.*
