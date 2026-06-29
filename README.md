@@ -36,6 +36,7 @@ The Company did not have trustworthy source of sales data. The process to verify
 
 **Soft Skills** `Stakeholder management` `Business-to-data translation` `Data governance & documentation`
 
+---
 
 ## 3. Business Problem
 
@@ -55,42 +56,44 @@ Salesforce was used to track sales funnels but information was incomplete and no
 
 ## 4. Methodology
 
-1. **Understand the business** Workshop with Sales team to understand the as-is sales process practice and requirements for better visibility to take ownership and better actions.
+1. **Discover to understand the business** Ran workshops with Sales team to understand the as-is sales process practice and requirements for better visibility to take ownership and better actions. Translated business language into data requirements.
 
-2. **Set up Salesforce** Validated data on Salesforce. Filled in missing data by using integration workflow with 3rd party data. Created workflow to create checkout to ensure data quality going forward.
+2. **Set up and govern Salesforce CRM** Audited and validated data on Salesforce. Backfilled missing data by using integration workflow with 3rd party data. Implemented validatian rules and workflow to enforce data quality going forward.
    
-3. **Inject data from Salesforce to Domo**
+3. **Create datapipeline from Salesforce to Domo, build datasets on Domo**
 - Used prebuilt Salesforce Connector on Domo to extract data from Oppotunity, Account, User, Lead and Activity objects.
-- Used Magic ETL tile and SQL queries to create dimension and fact tables to support the creation of charts and dashboards.
+- Used Magic ETL and SQL to build dimension and fact tables to support the creation of charts and dashboards.
 
-4. **Designed and built dashboards on desktop and mobile**
+4. **Design and build dashboards on Desktop and Mobile**
 - Used Beast Mode to create calculated fields.
-- Built and automated dashboards to provide visibility on sales funnels and activities.
-- Enable drill in for self-served
-- Enable mobile version
+- Designed, built and automated dashboards to provide visibility on sales funnels and activities with proper layered dashboard architecture
+- Enabled drill in for self-served.
+- Enable mobile version for on-the-go access.
 
-5. **Validation and put in use**
+5. **Validation and continuous improvement**
+- Validated all metrics with Finance, Sales and Leadership before go-live.
+- Embedded dashboards into weekly sales meeting and monthly leadership meeting.
+- Reviewed dashboards every quarter to retire unused charts and add in new analysis as business priorities evolved.
   
 ---
 
 ## 5. Results & Business Recommendations
 
-Sales BI for Sales and Leadership teams was created in Desktop and Mobile versions to provide the business with real-time visibility of sales results and process. That in turn helped the team to properly manage their workload, know what to focus and easily brainstorm on their selling strategy. Salesforce became the source of truth for the business with Domo being the platform to centralise information. Business got more confidence in data quality and in their strategic decision. The ability to drill down for detailed analysis and ask question saved time for users instead of waiting for the analytics team. The activities and performance of each sales reps are visible for them and their managers for performance assessment.
+✅ Salesforce became the source of truth for the business with Domo being the platform to centralise information. Finance retired their manual database and used Salesforce data to power historical anlaysis and scenario forecasting. sales database Business got more confidence in data quality and in their strategic decision.
 
-The space was used by Sales and Leadership team in their weekly sales meeting. Finance team replaced their manual sales database with Salesforce/Domo database for better historical data and better quality forecast.  
+✅ Sales BI for Sales and Leadership teams was created in Desktop and Mobile versions to provide the business with real-time visibility of sales results and process. That in turn helped the team to properly manage their workload, know what to focus and easily brainstorm on their selling strategy.  
+
+✅ The ability to drill down for detailed analysis and ask question saved time for users instead of waiting for the analytics team. 
+
+✅ The activities space created transparency in sales team to support performance coaching and healthy competition among sales reps.
+
+**Visualisation**
 
 | | |
 |--|--|
-|<img width="524" height="257" alt="Screenshot 2026-06-22 at 5 19 58 PM" src="https://github.com/user-attachments/assets/be1392da-95e4-4c69-8fa3-8dbc9fc393fe" />|<img width="886" height="729" alt="Screenshot 2026-06-25 at 2 57 14 PM" src="https://github.com/user-attachments/assets/f232c797-13fe-4f1a-ac55-435df418da7f" />
-|
-<img width="629" height="636" alt="Screenshot 2026-06-25 at 4 19 38 PM" src="https://github.com/user-attachments/assets/7471e97a-b41a-4e04-b750-a70178d59d2a" />
-
----
-
-## 6. Next Steps
-
-- On quarterly basic, I reviewed all newly created charts/analysis to update the dashboards to keep them useful and up-to-demand.
+|<img width="559" height="278" alt="Screenshot 2026-06-29 at 4 17 56 PM" src="https://github.com/user-attachments/assets/e1883de0-f0d3-489e-b2b6-87dd02060481" /> | <img width="629" height="636" alt="Screenshot 2026-06-25 at 4 19 38 PM" src="https://github.com/user-attachments/assets/7471e97a-b41a-4e04-b750-a70178d59d2a" />|
+|<img width="886" height="729" alt="Screenshot 2026-06-25 at 2 57 14 PM" src="https://github.com/user-attachments/assets/f232c797-13fe-4f1a-ac55-435df418da7f" />|...|
   
 ---
 
-*This case study is part of Thuy Tu's portfolio. Charts shown are for demo purpose. Client data has been changed.*
+*This case study is part of Thuy Tu's portfolio. Client data has been changed. Charts shown are for demonstration purpose.*
