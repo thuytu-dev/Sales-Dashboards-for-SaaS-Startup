@@ -91,9 +91,9 @@ Salesforce was used to track sales funnels but information was incomplete and no
 
 | | |
 |--|--|
-|<img width="559" height="278" alt="Screenshot 2026-06-29 at 4 17 56 PM" src="https://github.com/user-attachments/assets/e1883de0-f0d3-489e-b2b6-87dd02060481" /> | <img width="629" height="636" alt="Screenshot 2026-06-25 at 4 19 38 PM" src="https://github.com/user-attachments/assets/7471e97a-b41a-4e04-b750-a70178d59d2a" />|
-|<img width="886" height="729" alt="Screenshot 2026-06-25 at 2 57 14 PM" src="https://github.com/user-attachments/assets/f232c797-13fe-4f1a-ac55-435df418da7f" />|...|
-  
+|<img width="559" height="278" alt="Screenshot 2026-06-29 at 4 17 56 PM" src="https://github.com/user-attachments/assets/e1883de0-f0d3-489e-b2b6-87dd02060481" /> |  <img width="886" height="729" alt="Screenshot 2026-06-25 at 2 57 14 PM" src="https://github.com/user-attachments/assets/f232c797-13fe-4f1a-ac55-435df418da7f" />|
+|<img width="629" height="636" alt="Screenshot 2026-06-25 at 4 19 38 PM" src="https://github.com/user-attachments/assets/7471e97a-b41a-4e04-b750-a70178d59d2a" />| <img width="899" height="629" alt="Screenshot 2026-06-29 at 5 52 33 PM" src="https://github.com/user-attachments/assets/cfb91fa5-fd89-4a70-a734-d61aaf2981c3" /> |
+
 ---
 
 *This case study is part of Thuy Tu's portfolio. Client data has been changed. Charts shown are for demonstration purpose.*
