@@ -98,4 +98,12 @@ Salesforce was used to track sales funnels but information was incomplete and no
 
 ---
 
+## Let's talk about your reporting stack
+
+If your Finance and Leadership teams are still stitching together numbers from Salesforce, Zuora, Xero, or similar tools each month, I help SaaS startups build one automated, trustworthy source of truth — from data pipeline to board-ready dashboard.
+
+📩 **thuytu.bsn@gmail.com** · 💼 **www.LinkedIn.com/in.thuytu**
+
+---
+
 *This case study is part of Thuy Tu's portfolio. Client data has been changed. Charts shown are for demonstration purpose.*
